@@ -4,11 +4,17 @@ public class method {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		hello("park");
+      
+		name("park",27);
+	    System.out.println(sum(10, 20));
 	}
 
-	static void hello(String na1) {
-		System.out.println("hello " + na1);
+	static void name(String n,int age) {
+		System.out.println(n);
+		System.out.println(age);
+	}
+	
+	static int sum(int x, int b){
+		return x+b;
 	}
 }
