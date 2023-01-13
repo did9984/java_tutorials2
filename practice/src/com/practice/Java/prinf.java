@@ -10,7 +10,7 @@ public class prinf {
 		String d ="abc"; // s
 		char f = '@'; //c
 		
-   System.out.printf("this is prindf %2f",b);
+   System.out.printf("this is prindf %.1f",b);
 	}
 
 }
