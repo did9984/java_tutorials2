@@ -6,15 +6,17 @@ public class for_eachLoop {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-//       int[] array = {1,2,3,4,5};
-		ArrayList<String> array = new ArrayList<String>();
+//     int[] array = {1,2,3,4,5};
 		
-		array.add("1");
-		array.add("2");
-		array.add("3");
-      for(String i :array) {
-    	  System.out.println(i);
-      }
+		ArrayList<String> array = new ArrayList<String>();
+		array.add("!");
+		array.add("!");
+		array.add("!");
+		array.add("!");
+		array.add("!");
+		for (String i: array) {
+			System.out.print(i+" ");
+		}
 	}
 	}
 
