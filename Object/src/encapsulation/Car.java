@@ -14,7 +14,7 @@ public class Car {
 	}
 
 	public String name() {
-		return nameString;
+		return nameString; // private 로 묶어져있는 변수는 public으로 encapsulation 안하면 불러오기불가
 	}
 
 	public int year() {
