@@ -9,28 +9,24 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner(System.in);
 		try {
-			
+
 			System.out.println("Enter a whole number to divide: ");
 			int x = scanner.nextInt();
-		
+
 			System.out.println("Enter a whole number to divide by: ");
 			int y = scanner.nextInt();
-		
-			int z = x/y;
-		
+
+			int z = x / y;
+
 			System.out.println("result: " + z);
-		}
-		catch(ArithmeticException e) {
+		} catch (ArithmeticException e) { // 계산식이 맞지 않을시 
 			System.out.println("You can't divide by zero! IDIOT!");
-		}
-		catch(InputMismatchException e) {
+		} catch (InputMismatchException e) { //형태가 맞지 않을시 
 			System.out.println("PLEASE ENTER A NUMBER OMFG!!!");
-		}
-		catch(Exception e) {
+		} catch (Exception e) { // 모든예외
 			System.out.println("Something went wrong");
-		}
-		finally {
-			
+		} finally {
+
 			scanner.close();
 		}
 	}

@@ -23,7 +23,7 @@ public class Main {
 			animal.speak();
 		}else {
 			animal = new Animal();
-			System.out.println("That choice was invalid ");
+			System.out.println("That choice was invalid "); //invalid 유효하지않은 
 			animal.speak();
 		}
 		
